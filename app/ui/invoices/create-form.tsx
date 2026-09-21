@@ -50,8 +50,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
               <p className="mb-5 text-sm text-red-500" key={error}>
                 {error}
               </p>
-            ))
-          }
+            ))}
         </div>
 
         {/* Invoice Amount */}
